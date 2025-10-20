@@ -1,0 +1,96 @@
+SD:
+  patch_file : ./data/sd/patch_to_nodes_30_dj_g.json
+  sub_adj_file : ./data/sd/patch_adj_matrices_30_dj_g.json
+  input_len : 12
+  output_len : 12
+  his_len : 0
+  train_ratio : 0.6
+  val_ratio : 0.2
+  test_ratio : 0.2
+  cuda : 0
+  max_epoch : 50
+  batch_size : 64
+  seed : 1
+  layers : 4
+  tem_patchsize : 12
+  tem_patchnum : 1
+  node_num : 716
+  tod : 96
+  dow : 7
+  input_dims : 64
+  node_dims : 64
+  tod_dims : 32
+  dow_dims : 32
+
+GBA:
+  his_len: 0
+  nhead: 1
+  patch_file: ./data/gba/patch_to_nodes_84_dj_g.json
+  sub_adj_file: ./data/gba/patch_adj_matrices_84_dj_g.json
+  input_len: 12
+  output_len: 12
+  train_ratio: 0.6
+  val_ratio: 0.2
+  test_ratio: 0.2
+  cuda: 0
+  max_epoch: 50
+  batch_size: 64
+  seed: 1
+  layers: 4
+  tem_patchsize: 12
+  tem_patchnum: 1
+  node_num: 2352
+  tod: 96
+  dow: 7
+  input_dims: 64
+  node_dims: 64
+  tod_dims: 32
+  dow_dims: 32
+GLA:
+  his_len: 0
+  nhead: 1
+  patch_file: ./data/gla/patch_to_nodes_120_dj.json
+  sub_adj_file: ./data/gla/patch_adj_matrices_120_dj.json
+  input_len: 12
+  output_len: 12
+  train_ratio: 0.6
+  val_ratio: 0.2
+  test_ratio: 0.2
+  cuda: 0
+  max_epoch: 50
+  batch_size: 64
+  seed: 1
+  layers: 4
+  tem_patchsize: 12
+  tem_patchnum: 1
+  node_num: 3834
+  tod: 96
+  dow: 7
+  input_dims: 64
+  node_dims: 64
+  tod_dims: 32
+  dow_dims: 32
+CA:
+  his_len: 0
+  nhead: 1
+  patch_file: ./data/ca/patch_to_nodes_120_dj.json
+  sub_adj_file: ./data/ca/patch_adj_matrices_120_dj.json
+  input_len: 12
+  output_len: 12
+  train_ratio: 0.6
+  val_ratio: 0.2
+  test_ratio: 0.2
+  cuda: 0
+  max_epoch: 50
+  batch_size: 32
+  seed: 1
+  layers: 4
+  tem_patchsize: 12
+  tem_patchnum: 1
+  node_num: 8600
+  tod: 96
+  dow: 7
+  input_dims: 64
+  node_dims: 64
+  tod_dims: 32
+  dow_dims: 32
